@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap');
+@import '../../componentes/color';
+
+section{
+    background-image: url(./img/taza-cenital.jpg);
+    width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    filter:brightness(0.4);
+   
+    h1{
+        color: $white;
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        margin:0px;
+    }
+    h2{
+        color: $white;
+        font-family: 'Nunito', sans-serif;
+        font-size: 10px;
+        font-weight: 200;
+        margin:0px;
+    }
+    
+    
+
+    
+}
